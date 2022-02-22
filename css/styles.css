@@ -3,3 +3,58 @@
 .serif0 { font-family: serif; }
 .sans0 { font-family: sans-serif; }
 .mono0 { font-family: monospace; }
+
+body {
+    background-color: #231f20;
+    font-family: "Varela Round";
+}
+
+h2 {
+    color: white;
+}
+
+.stats{
+    padding: 12px;
+}
+
+.subtext{
+    color: gray;
+}
+
+.body {
+    margin: auto;
+    max-width: 900px;
+}
+
+footer {
+    margin: auto;
+    max-width: 75%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+p {
+    color: lightgray;
+    font-size: 16px;
+}
+
+/* unvisited link */
+a:link {
+    color: gray;
+}
+
+/* visited link */
+a:visited {
+    color: darkgray;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkgray;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+}
