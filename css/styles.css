@@ -15,15 +15,18 @@ h2 {
 
 .stats{
     padding: 12px;
+    max-width: 90%;
 }
 
 .subtext{
     color: gray;
+    font-size: 12px;
 }
 
 .body {
     margin: auto;
     max-width: 900px;
+    padding: 25px;
 }
 
 footer {
@@ -37,6 +40,10 @@ footer {
 p {
     color: lightgray;
     font-size: 16px;
+}
+
+.sectxt {
+    padding-left: 20px;
 }
 
 /* unvisited link */
