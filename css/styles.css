@@ -26,7 +26,41 @@ h2 {
 .body {
     margin: auto;
     max-width: 900px;
-    padding: 25px;
+	padding: 25px 50px;
+}
+
+.navbar{
+	height: 50px;
+	padding: 0 25px;
+	margin: 0 -25px;
+	border-bottom-style: outset;
+	border-bottom-width: thin;
+	border-bottom-color: white;
+}
+
+.navbutton{
+	float: right;
+	padding: 0 10px;
+	background-color: #3C3A3D;
+	margin-left: 15px;
+	margin-top: 8px;
+	width: auto;
+	height: auto;
+	border-radius: 10px
+}
+
+.navtext{
+	font-size: 11px;
+	letter-spacing: 3px;
+	padding-left: 3px;
+	color: lightgray;
+}
+
+.navlogo{
+	height: 80%;
+	margin-top: 5px;
+	background-color: #3C3A3D;
+	border-radius: 10px
 }
 
 footer {
