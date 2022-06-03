@@ -32,7 +32,10 @@
 <body>
 <div class="body">
   <header>
-    <nav id="navbar" class="navbar"> <img class="navlogo" alt="logo" src="images/navlogo.png" onClick="location.href='https://thedocruby.dev/';" />
+    <nav id="navbar" class="navbar">
+      <div id="navbutton-logo" class="navbutton" onClick="location.href='index.html';" onMouseOver="this.style.backgroundColor = '#665E60'" onMouseOut="this.style.backgroundColor = '#463E40'" onMouseDown="this.style.backgroundColor = '#463E40'" onMouseUp="this.style.backgroundColor = '#665E60'">
+        <p id="navtext-logo"><img class="navlogo" alt="logo" src="images/navlogo.png"/></p>
+      </div>
       <div id="navbutton-projects" class="navbutton" onClick="location.href='projects.html';" onMouseOver="this.style.backgroundColor = '#665E60'" onMouseOut="this.style.backgroundColor = '#463E40'" onMouseDown="this.style.backgroundColor = '#463E40'" onMouseUp="this.style.backgroundColor = '#665E60'">
         <p id="navtext-projects" class="navtext">PROJECTS</p>
       </div>
@@ -66,9 +69,9 @@
         microcontrollers and electrical engineering. </p>
     </section>
     <section id="stats" class="aboutme">
-      <p> <a href="https://github.com/thedocruby"><img class="stats"
+      <div class="flex-stats-container"> <a class="flex-stats" href="https://github.com/thedocruby"><img class="stats" 
             src="https://github-readme-stats.vercel.app/api?username=thedocruby&amp;count_private=true&amp;show_icons=true&amp;theme=dark"
-            alt="Dr. Rubisco's GitHub stats" /></a> <a href="https://github.com/anuraghazra/github-readme-stats"><img class="stats"
+            alt="Dr. Rubisco's GitHub stats" /></a> <a class="flex-stats" href="https://github.com/anuraghazra/github-readme-stats"><img class="stats" 
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=thedocruby&amp;layout=compact&amp;theme=dark&amp;count_private=true&amp;exclude_repo=VANELLA,cayman,Iris-site,irisshaders.github.io"
             alt="Dr. Rubisco's Top Langs" /></a> </p>
     </section>

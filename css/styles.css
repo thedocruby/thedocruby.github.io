@@ -22,17 +22,33 @@ h3 {
     color: lightgray;
 }
 
-.stats{
-    padding: 12px;
-    max-width: 90%;
+.stats {
+    max-width: 100%
 }
 
-.subtext{
+.flex-stats-container {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media all and (max-width: 1000px) {
+	.flex-stats-container {
+		flex-wrap: wrap;
+	}
+}
+
+.flex-stats {
+	flex-shrink: 2;
+	margin: 10px;
+}
+
+.subtext {
     color: gray;
     font-size: 12px;
 }
 
-.subtitle{
+.subtitle {
     color: gray;
 	text-align: center;
 }
@@ -43,8 +59,10 @@ h3 {
 	padding: 25px 50px;
 }
 
-.navbar{
-	height: 50px;
+.navbar {
+	display: flex;
+	justify-content: left;
+	height: 60px;
 	padding: 0 25px;
 	margin: 0 -25px;
 	border-bottom-style: outset;
@@ -52,15 +70,21 @@ h3 {
 	border-bottom-color: white;
 }
 
-.navbutton{
-	float: right;
-	padding: 0 10px;
+.navbutton {
+	flex-shrink: 1;
 	background-color: #463E40;
-	margin-left: 15px;
-	margin-top: 8px;
-	width: auto;
-	height: auto;
-	border-radius: 10px
+	border-radius: 10px;
+	margin: 13px 4px;
+}
+
+#navbutton-logo {
+	margin: 7px;
+	margin-right: 16px;
+}
+
+.navlogo {
+	max-height: 40px;
+	margin-top: -11px;
 }
 
 .project {
@@ -72,18 +96,20 @@ h3 {
 	background-color: #463E40;
 }
 
-.navtext{
+.navtext {
 	font-size: 11px;
 	letter-spacing: 3px;
 	padding-left: 3px;
+	margin: 10.5px;
 	color: lightgray;
 }
 
-.navlogo{
-	height: 80%;
-	margin-top: 5px;
-	background-color: #463E40;
-	border-radius: 10px
+#navtext-logo {
+	font-size: 12px;
+	letter-spacing: 3px;
+	padding-left: 2px;
+	margin: 14px 3px;
+	color: lightgray;
 }
 
 footer {
