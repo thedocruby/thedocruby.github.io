@@ -1522,7 +1522,6 @@
   width: 500px;
   min-height: 122px;
   box-shadow: -5px 5px 16px 0px rgba(0,0,0,0.35);
-  height: auto;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -1683,7 +1682,6 @@
 
   .u-section-13 .u-group-2 {
     min-height: 138px;
-    height: auto;
   }
 
   .u-section-13 .u-container-layout-2 {
@@ -1830,7 +1828,6 @@
 
   .u-section-13 .u-repeater-1 {
     min-height: 408px;
-    grid-auto-columns: calc(50% - 28px);
   }
 
   .u-section-13 .u-image-1 {
