@@ -226,7 +226,6 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
     min-height: 998px;
-    grid-auto-columns: 100%;
   }
 
   .u-section-2 .u-group-1 {
