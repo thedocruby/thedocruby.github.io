@@ -1,7 +1,6 @@
 {
     "@context": "http://schema.org",
     "@type": "Person",
-    "logo": "images/dr-rubisco-banner-transparent.png",
     "name": "Mason Pysell",
     "url": "https://thedocruby.dev",
     "alternateName": [

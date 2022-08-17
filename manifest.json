@@ -1,0 +1,53 @@
+{
+    "short_name": "Portfolio",
+    "name": "Dr. Rubisco's Portfolio",
+    "icons": [
+        {
+            "src": "/images/vector-icon.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/android-chrome-256x256.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#231f20",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#231f20",
+    "shortcuts": [
+        {
+            "name": "Home",
+            "short_name": "Home",
+            "url": "/home.html"
+        },
+        {
+            "name": "About",
+            "short_name": "About",
+            "url": "/about.html"
+        },
+        {
+            "name": "Contact",
+            "short_name": "Contact",
+            "url": "/contact.html"
+        }
+    ],
+    "description": "Portfolio of Dr. Rubisco's amazing work"
+}
