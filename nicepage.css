@@ -46452,12 +46452,12 @@ blockquote {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 89px;
+  min-height: 101px;
 }
 
 .u-header .u-image-1 {
-  width: 205px;
-  height: 59px;
+  width: 244px;
+  height: 71px;
   margin: 15px auto 0 26px;
 }
 
@@ -46467,7 +46467,7 @@ blockquote {
 }
 
 .u-header .u-menu-1 {
-  margin: -45px 26px 29px auto;
+  margin: -51px 26px 35px auto;
 }
 
 .u-header .u-nav-1 {
@@ -46529,8 +46529,8 @@ blockquote {
   }
 
   .u-header .u-image-2 {
-    width: 49px;
-    height: 49px;
+    width: 52px;
+    height: 52px;
     margin-top: -40px;
     margin-bottom: 8px;
     margin-left: 21px;
