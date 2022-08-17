@@ -73,7 +73,9 @@
   .u-section-1 .u-form-1 {
     width: 340px;
   }
-} .u-section-2 {
+}
+
+.u-section-2 {
   background-image: none;
 }
 
@@ -84,7 +86,7 @@
 .u-section-2 .u-group-1 {
   width: 500px;
   min-height: 122px;
-  box-shadow: -5px 5px 16px 0px rgba(0,0,0,0.35);
+  box-shadow: -5px 5px 16px 0px rgba(0, 0, 0, 0.35);
   margin: 21px auto 60px;
 }
 
