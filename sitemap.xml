@@ -5,7 +5,7 @@
 			https://thedocruby.dev/
     </loc>
     <lastmod>
-			2022-08-18
+			2022-08-22
     </lastmod>
   </url>
   <url>
@@ -13,7 +13,7 @@
 			https://thedocruby.dev/home.html
     </loc>
     <lastmod>
-			2022-08-18
+			2022-08-22
     </lastmod>
   </url>
   <url>
@@ -30,6 +30,38 @@
     </loc>
     <lastmod>
 			2022-08-18
+    </lastmod>
+  </url>
+  <url>
+    <loc>
+			https://thedocruby.dev/portfolio/catch-22.html
+    </loc>
+    <lastmod>
+			2022-08-22
+    </lastmod>
+  </url>
+  <url>
+    <loc>
+			https://thedocruby.dev/portfolio/iris-shaders.html
+    </loc>
+    <lastmod>
+			2022-08-22
+    </lastmod>
+  </url>
+  <url>
+    <loc>
+			https://thedocruby.dev/portfolio/minecraft-abstractions.html
+    </loc>
+    <lastmod>
+			2022-08-22
+    </lastmod>
+  </url>
+  <url>
+    <loc>
+			https://thedocruby.dev/portfolio/resounding.html
+    </loc>
+    <lastmod>
+			2022-08-22
     </lastmod>
   </url>
 </urlset>

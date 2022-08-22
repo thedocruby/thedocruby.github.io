@@ -46474,7 +46474,6 @@ blockquote {
   font-weight: 700;
   font-family: "Varela Round";
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -46510,6 +46509,10 @@ blockquote {
     width: auto;
     margin-top: -41px;
     margin-bottom: 21px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 
   .u-header .u-nav-2 {
