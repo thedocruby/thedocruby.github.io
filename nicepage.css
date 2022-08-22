@@ -533,7 +533,7 @@ span.fr-img-caption.fr-view.fr-dii.fr-fir {
 }
 
 /*end-commonstyles library*/
-@charset "UTF-8";
+/*@charset "UTF-8";*/
 
 .u-locked-block {
   pointer-events: none !important;
@@ -1340,7 +1340,7 @@ ol {
 .u-btn {
   /*display: inline-block;*/
   display: table;
-  /*TODO maye need another solution for negative marin*/
+  /*TODO may need another solution for negative marin*/
   cursor: pointer;
   color: inherit;
   font-size: inherit;

@@ -20,7 +20,7 @@
   <script src="https://www.google.com/recaptcha/api.js?render=6LfZM3whAAAAANAiG2Hy48tj3sfTx7X8F14NORFn"></script>
   <script> grecaptcha.ready(function () {
       grecaptcha.execute('6LfZM3whAAAAANAiG2Hy48tj3sfTx7X8F14NORFn', { action: 'submit' }).then(function (token) {
-        console.info("Recieved reCAPTCHA token: " + token);
+        console.info("Received reCAPTCHA token: " + token);
         const captchas = document.getElementsByName("recaptchaResponse");
         for (const captcha of captchas) {
           captcha.value = token;
