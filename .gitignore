@@ -1,1 +1,8 @@
 ﻿.vscode
+node_modules
+gruntfile.js
+package.json
+package-lock.json
+oldcss
+postcss.config.js
+purgecss.config.js
